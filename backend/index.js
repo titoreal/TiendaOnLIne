@@ -108,7 +108,7 @@ class ProductoServer {
             const productosConUrl = productos.map(producto => ({
                 ...producto, // Copiamos los datos originales
                 imagen_url: producto.imagen 
-                    ? `http://192.168.100.146:${this.PORT}/imagenes/${producto.imagen}` 
+                    ? `http://ESCRIBE TU PROPIA IP:${this.PORT}/imagenes/${producto.imagen}` 
                     : null // Si no tiene imagen, asignamos null
             }))
 
